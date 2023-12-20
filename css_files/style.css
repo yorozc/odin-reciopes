@@ -1,6 +1,18 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif
 }
+
+h2,
+h3 {
+    margin: 12px;
+}
+
+ol {
+    margin: 12px 32px;
+}
+
 body#homepage {
     background-image: url("../img/limon.gif");
     background-repeat: no-repeat;
@@ -12,10 +24,12 @@ body#homepage {
     border-radius: 8px;
     text-align: center;
     padding: 8px;
+    margin-bottom: 24px;
 
 }
 img {
     border-radius: 8px;
+    margin: 12px;
 }
 ul {
     display: flex;
