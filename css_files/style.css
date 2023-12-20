@@ -1,16 +1,35 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif
+}
+body#homepage {
+    background-image: url("../img/limon.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .labels {
     background-color: beige;
     border: 2px solid brown;
+    border-radius: 8px;
     text-align: center;
     padding: 8px;
+
+}
+img {
+    border-radius: 8px;
+}
+ul {
+    display: flex;
+    list-style: none;
 }
 
-li {
-    font-size: 24px;
+li{
+   font-size: 24px;
+   border: 2px solid beige;
+   padding: 8px;
+   margin-right: 5px;
+   margin: auto;
 }
+
 a {
     text-decoration: none;
     color: black;
